@@ -9,17 +9,12 @@ public class WordManager : MonoBehaviour
     private bool hasActiveWord;
     private Word activeWord;
 
-    private void Start()
-    {
-        AddWord();
-        AddWord();
-        AddWord();
-    }
+    public WordSpawner wordSpawner;
+
 
     public void AddWord()
     {
-        Word word = new Word(WordGenerator.GetRandomWord());
-        Debug.Log(word.word);
+        Word word = new Word(WordGenerator.GetRandomWord(), wordSpawner.spawnWord());
 
         words.Add(word);
     }
