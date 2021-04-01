@@ -23,9 +23,11 @@ public class WordManager : MonoBehaviour
     {
         if (hasActiveWord)
         {
+            KeepData.score += 10;
+            
             if (activeWord.getNextLetter() == letter)
             {
-                activeWord.TypeLetter();
+                activeWord.TypeLetter();                
             }
         }
         else
@@ -46,6 +48,7 @@ public class WordManager : MonoBehaviour
         {
             hasActiveWord = false;
             words.Remove(activeWord);
+            KeepData.score += 100;
         }
     }
 }

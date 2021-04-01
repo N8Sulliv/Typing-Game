@@ -17,6 +17,7 @@ public class WordSpawner : MonoBehaviour
         WordDisplay wordDisplay = wordobj.GetComponent<WordDisplay>();
 
 
+
         return wordDisplay;
     }
 }

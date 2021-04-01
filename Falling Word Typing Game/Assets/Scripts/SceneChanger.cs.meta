@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: a423ff2efe577e842ac73a7cc93fae4a
+guid: 8e09af4622e75c940956cffc2b9c7c22
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - wordPrefab: {instanceID: 0}
-  - canvas: {instanceID: 0}
-  - wordobj: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
