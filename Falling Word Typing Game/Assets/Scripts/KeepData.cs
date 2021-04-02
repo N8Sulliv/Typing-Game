@@ -6,8 +6,9 @@ public class KeepData : MonoBehaviour
     public InputField inputName;
     public Text scoreText;
     public Text nameText;
-    public static string playerName;
+    public static string playerName = "default";
     public static int score;
+    public static float wordDelay;
 
     private void Awake()
     {
@@ -39,5 +40,7 @@ public class KeepData : MonoBehaviour
     {
         nameText.text = playerName;
     }
+
+
 }
 

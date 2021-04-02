@@ -17,5 +17,6 @@ public class SceneChanger : MonoBehaviour
     public void backToStart()
     {
         SceneManager.LoadScene("Intro");
+        Cursor.visible = true;
     }
 }
